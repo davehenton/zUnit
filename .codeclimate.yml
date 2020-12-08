@@ -1,10 +1,9 @@
-exclude_patterns:
-- "example/**"
-- "example/**/*"
 version: "2"
 plugins:
  eslint:
   enabled: true
   channel: "eslint-7"
+exclude_patterns:
+- "example/"
 
 
