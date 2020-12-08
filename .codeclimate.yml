@@ -1,7 +1,9 @@
+exclude_patterns:
+- "example/**"
+- "example/**/*"
 version: "2"
 plugins:
  eslint:
   enabled: true
-exclude_patterns:
-- "example/**"
-- "example/**/*"
+
+
